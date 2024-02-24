@@ -1,0 +1,35 @@
+body{
+    background: salmon;
+}
+.imgBox{
+    background-image: url('ABP2.jpg');
+    position: relative;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    height: 270px;
+    width: 190px;
+    cursor: pointer;  /*Shows a cursor to drag image*/
+}
+.whiteBox{
+    display: inline-block;
+    height: 300px;
+    width: 210px;
+    margin: 10px;
+    background-color: whitesmoke;
+    border: 3px black solid;
+}
+
+.hold{ 
+    border: 4px red solid; 
+}
+
+.dashed{    
+    background: yellowgreen;                 
+    border-style: dashed ; 
+} 
+
+.hide{
+    display: none;   
+}
